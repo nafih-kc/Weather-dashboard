@@ -1,10 +1,10 @@
-# Weather App
+# Weather Dashboard
 
-A responsive web application that provides current weather conditions and a 5-day forecast for any city. Built with HTML, CSS, and vanilla JavaScript using a public weather API.
+A simple dashboard that provides current weather conditions and a 5-day forecast for any city. Built with HTML, CSS, and vanilla JavaScript using a public weather API.
 
-## Live Demo
+## Live Demo works on any screen ratio..
 
-https://YOUR-USERNAME.github.io/weather-app/
+[Weather dashboard](https://nafih-kc.github.io/Weather-dashboard/)
 
 ## Overview
 
@@ -14,30 +14,17 @@ This project demonstrates front-end development fundamentals, including asynchro
 
 - City search with real-time weather data
 - Current temperature, humidity, wind speed, and weather conditions
-- 5-day forecast
+- last 5-day forecast history
 - Responsive layout for mobile, tablet, and desktop
 - Lightweight implementation with no external frameworks
 
 ## Technologies
 
 - HTML5
-- CSS3
-- JavaScript (ES6)
-- OpenWeatherMap API (or the weather API of your choice)
+- CSS
+- JavaScript
+- OpenWeatherMap API
 
-## Installation
-
-1. Clone the repository:
-
-   git clone https://github.com/YOUR-USERNAME/weather-app.git
-
-2. Navigate to the project directory:
-
-   cd weather-app
-
-3. Add your API key in script.js.
-
-4. Open index.html in a web browser.
 
 ## Project Structure
 
@@ -55,16 +42,14 @@ Enter a city name in the search field and submit. The application displays the c
 
 ## Future Improvements
 
-- Automatic location detection
-- Temperature unit toggle (Celsius and Fahrenheit)
-- Hourly forecast view
 - Search history
+- Your location search
 
 ## License
 
-Distributed under the MIT License. See the LICENSE file for details.
+Distributed under the MIT License.
 
 ## Author
 
 YOUR NAME
-GitHub: https://github.com/YOUR-USERNAME
+GitHub: https://github.com/nafih-kc
