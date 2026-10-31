@@ -2,6 +2,8 @@
 
 A simple dashboard that provides current weather conditions and a 5-day forecast for any city. Built with HTML, CSS, and vanilla JavaScript using a public weather API.
 
+![Weather Dashboard](Weather%20Dashboard%20Tech%20Workspace.png)
+
 ## Live Demo works on any screen ratio..
 
 [Weather dashboard](https://nafih-kc.github.io/Weather-dashboard/)
