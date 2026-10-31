@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Dashboard</title>
+    <link rel="stylesheet" href="weather.css" />
+    
+
+</head>
+
+<body>
+
+    <div class="container">
+        
+
+        <!-- Theme Toggle -->
+
+        <div class="theme-toggle">
+            <!-- <h1 class="app-title">Weather Dashboard</h1> -->
+
+            <button id="themeBtn">🌙 Dark              </button>
+
+        </div>
+
+
+
+        <!-- Search Section -->
+
+        <div class="search-section">
+
+            <input type="text" id="cityInput" placeholder="Enter city name..." />
+
+            <button id="searchBtn">Search weather</button>
+
+        </div>
+
+        <!-- Search suggestions, JS will fill this -->
+        <div id="suggestions"></div>
+
+<div id = "loader" style="display: none;">Loading...</div>
+
+        <!-- Weather Display -->
+
+        <div id="weatherCard" class="weather-card" style="display: none;"></div>
+
+        
+<button id = "addFavBtn" style="display: none;">Add to Favorites</button>
+        <!-- Error Message -->
+
+        <div id="errorMsg" class="error" style="display: none;"></div>
+
+        <!-- 5-day forecast, JS will fill this -->
+<div class="forecast-section">
+    <h3>5-Day Forecast</h3>
+    <div id="forecastList"></div>
+</div>
+
+
+        <!-- Favorites -->
+
+        <div class="favorites-section">
+
+            <h3>Favorites</h3>
+
+            <div id="favoritesList"></div>
+
+        </div>
+
+    </div>
+
+
+
+  <script src="weather.js"></script>
+</body>
+
+</html>
