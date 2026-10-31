@@ -51,5 +51,5 @@ Distributed under the MIT License.
 
 ## Author
 
-YOUR NAME
+NAFIH KC
 GitHub: https://github.com/nafih-kc
