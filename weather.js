@@ -1,4 +1,4 @@
-// connect to the HTML boxes (by their id)
+// connect to HTML boxes by their id
 let themeBtn = document.getElementById("themeBtn");
 let cityInput = document.getElementById("cityInput");
 let searchBtn = document.getElementById("searchBtn");
